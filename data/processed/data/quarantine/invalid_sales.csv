@@ -1,0 +1,5 @@
+transaction_id,store_id,product_id,quantity,unit_price,sales_date,error_reason
+T1007,S02,P103,-1,150,2026-10-03,Quantity must be greater than zero; 
+T1008,S03,,2,300,2026-10-03,Missing product_id; 
+T1010,S02,P104,2,-100,2026-10-04,Unit price must be greater than zero; 
+T1002,S01,P102,3,200,2026-10-01,Duplicate transaction ID; 
